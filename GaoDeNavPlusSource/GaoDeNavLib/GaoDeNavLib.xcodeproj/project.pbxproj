@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1161374243D62EB00D512ED /* AMapNaviKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1161373243D62EB00D512ED /* AMapNaviKit.framework */; };
+		D13F331722D82E9600E42417 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13F331622D82E9600E42417 /* AMapSearchKit.framework */; };
+		D13F331922D82EB300E42417 /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13F331822D82EB300E42417 /* AMapFoundationKit.framework */; };
+		D13F331B22D82ED800E42417 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13F331A22D82ED800E42417 /* MAMapKit.framework */; };
+		D13F332422D82FA500E42417 /* GaoDePoiInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D13F332122D82FA500E42417 /* GaoDePoiInfo.m */; };
+		D13F332522D82FA500E42417 /* GaoDeNavClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D13F332222D82FA500E42417 /* GaoDeNavClient.m */; };
+		D13F332722D82FB800E42417 /* GaoDePoiInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D13F332022D82FA400E42417 /* GaoDePoiInfo.h */; };
+		D13F332822D82FBB00E42417 /* GaoDeNavClient.h in Headers */ = {isa = PBXBuildFile; fileRef = D13F332322D82FA500E42417 /* GaoDeNavClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D13F333122D831B000E42417 /* DCGaoDeNavModule.h in Headers */ = {isa = PBXBuildFile; fileRef = D13F332F22D831B000E42417 /* DCGaoDeNavModule.h */; };
+		D13F333222D831B000E42417 /* DCGaoDeNavModule.m in Sources */ = {isa = PBXBuildFile; fileRef = D13F333022D831B000E42417 /* DCGaoDeNavModule.m */; };
+		D13F333522D8333B00E42417 /* DCGaoDeNavProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = D13F333322D8333B00E42417 /* DCGaoDeNavProxy.h */; };
+		D13F333622D8333B00E42417 /* DCGaoDeNavProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D13F333422D8333B00E42417 /* DCGaoDeNavProxy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D13F32F422D82B2200E42417 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D1161373243D62EB00D512ED /* AMapNaviKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapNaviKit.framework; path = ../AMapNaviKit.framework; sourceTree = "<group>"; };
+		D13F32F622D82B2200E42417 /* libGaoDeNavLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGaoDeNavLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D13F331222D82E4000E42417 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		D13F331422D82E4600E42417 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		D13F331622D82E9600E42417 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapSearchKit.framework; path = ../../SDK/Libs/AMapSearchKit.framework; sourceTree = "<group>"; };
+		D13F331822D82EB300E42417 /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapFoundationKit.framework; path = ../../SDK/Libs/AMapFoundationKit.framework; sourceTree = "<group>"; };
+		D13F331A22D82ED800E42417 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MAMapKit.framework; path = ../../SDK/Libs/MAMapKit.framework; sourceTree = "<group>"; };
+		D13F331C22D82EE200E42417 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D13F331E22D82EE900E42417 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		D13F332022D82FA400E42417 /* GaoDePoiInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaoDePoiInfo.h; sourceTree = "<group>"; };
+		D13F332122D82FA500E42417 /* GaoDePoiInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaoDePoiInfo.m; sourceTree = "<group>"; };
+		D13F332222D82FA500E42417 /* GaoDeNavClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaoDeNavClient.m; sourceTree = "<group>"; };
+		D13F332322D82FA500E42417 /* GaoDeNavClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaoDeNavClient.h; sourceTree = "<group>"; };
+		D13F332F22D831B000E42417 /* DCGaoDeNavModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCGaoDeNavModule.h; sourceTree = "<group>"; };
+		D13F333022D831B000E42417 /* DCGaoDeNavModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCGaoDeNavModule.m; sourceTree = "<group>"; };
+		D13F333322D8333B00E42417 /* DCGaoDeNavProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCGaoDeNavProxy.h; sourceTree = "<group>"; };
+		D13F333422D8333B00E42417 /* DCGaoDeNavProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCGaoDeNavProxy.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D13F32F322D82B2200E42417 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1161374243D62EB00D512ED /* AMapNaviKit.framework in Frameworks */,
+				D13F331B22D82ED800E42417 /* MAMapKit.framework in Frameworks */,
+				D13F331922D82EB300E42417 /* AMapFoundationKit.framework in Frameworks */,
+				D13F331722D82E9600E42417 /* AMapSearchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D13F32ED22D82B2200E42417 = {
+			isa = PBXGroup;
+			children = (
+				D13F32F822D82B2200E42417 /* GaoDeNavLib */,
+				D13F32F722D82B2200E42417 /* Products */,
+				D13F331122D82E4000E42417 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D13F32F722D82B2200E42417 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D13F32F622D82B2200E42417 /* libGaoDeNavLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D13F32F822D82B2200E42417 /* GaoDeNavLib */ = {
+			isa = PBXGroup;
+			children = (
+				D13F332322D82FA500E42417 /* GaoDeNavClient.h */,
+				D13F332222D82FA500E42417 /* GaoDeNavClient.m */,
+				D13F332022D82FA400E42417 /* GaoDePoiInfo.h */,
+				D13F332122D82FA500E42417 /* GaoDePoiInfo.m */,
+				D13F332F22D831B000E42417 /* DCGaoDeNavModule.h */,
+				D13F333022D831B000E42417 /* DCGaoDeNavModule.m */,
+				D13F333322D8333B00E42417 /* DCGaoDeNavProxy.h */,
+				D13F333422D8333B00E42417 /* DCGaoDeNavProxy.m */,
+			);
+			path = GaoDeNavLib;
+			sourceTree = "<group>";
+		};
+		D13F331122D82E4000E42417 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1161373243D62EB00D512ED /* AMapNaviKit.framework */,
+				D13F331E22D82EE900E42417 /* CoreTelephony.framework */,
+				D13F331C22D82EE200E42417 /* SystemConfiguration.framework */,
+				D13F331A22D82ED800E42417 /* MAMapKit.framework */,
+				D13F331822D82EB300E42417 /* AMapFoundationKit.framework */,
+				D13F331622D82E9600E42417 /* AMapSearchKit.framework */,
+				D13F331422D82E4600E42417 /* libz.tbd */,
+				D13F331222D82E4000E42417 /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D13F332622D82FB200E42417 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13F333122D831B000E42417 /* DCGaoDeNavModule.h in Headers */,
+				D13F333522D8333B00E42417 /* DCGaoDeNavProxy.h in Headers */,
+				D13F332822D82FBB00E42417 /* GaoDeNavClient.h in Headers */,
+				D13F332722D82FB800E42417 /* GaoDePoiInfo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D13F32F522D82B2200E42417 /* GaoDeNavLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D13F32FF22D82B2200E42417 /* Build configuration list for PBXNativeTarget "GaoDeNavLib" */;
+			buildPhases = (
+				D13F332622D82FB200E42417 /* Headers */,
+				D13F32F222D82B2200E42417 /* Sources */,
+				D13F32F322D82B2200E42417 /* Frameworks */,
+				D13F32F422D82B2200E42417 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GaoDeNavLib;
+			productName = GaoDeNavLib;
+			productReference = D13F32F622D82B2200E42417 /* libGaoDeNavLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D13F32EE22D82B2200E42417 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "深圳互联天下";
+				TargetAttributes = {
+					D13F32F522D82B2200E42417 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = D13F32F122D82B2200E42417 /* Build configuration list for PBXProject "GaoDeNavLib" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D13F32ED22D82B2200E42417;
+			productRefGroup = D13F32F722D82B2200E42417 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D13F32F522D82B2200E42417 /* GaoDeNavLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D13F32F222D82B2200E42417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13F332422D82FA500E42417 /* GaoDePoiInfo.m in Sources */,
+				D13F333222D831B000E42417 /* DCGaoDeNavModule.m in Sources */,
+				D13F333622D8333B00E42417 /* DCGaoDeNavProxy.m in Sources */,
+				D13F332522D82FA500E42417 /* GaoDeNavClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D13F32FD22D82B2200E42417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D13F32FE22D82B2200E42417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D13F330022D82B2200E42417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M3ZU6W63F8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"${SRCROOT}/../../SDK/Libs\"",
+					"${SRCROOT}/../",
+				);
+				HEADER_SEARCH_PATHS = "\"${SRCROOT}/../../SDK/inc\"/**";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REEXPORTED_LIBRARY_PATHS = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D13F330122D82B2200E42417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M3ZU6W63F8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"${SRCROOT}/../../SDK/Libs\"",
+					"${SRCROOT}/../",
+				);
+				HEADER_SEARCH_PATHS = "\"${SRCROOT}/../../SDK/inc\"/**";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REEXPORTED_LIBRARY_PATHS = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D13F32F122D82B2200E42417 /* Build configuration list for PBXProject "GaoDeNavLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D13F32FD22D82B2200E42417 /* Debug */,
+				D13F32FE22D82B2200E42417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D13F32FF22D82B2200E42417 /* Build configuration list for PBXNativeTarget "GaoDeNavLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D13F330022D82B2200E42417 /* Debug */,
+				D13F330122D82B2200E42417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D13F32EE22D82B2200E42417 /* Project object */;
+}
