@@ -3,6 +3,12 @@
 
 **注意本插件目录只支持离线打包方式需要对xcode配制有一定了解**
 
+
+**[android版本插件可以直接云打包1](https://ext.dcloud.net.cn/plugin?id=571)**
+
+**[android版本插件可以直接云打包2(百度导航)](https://ext.dcloud.net.cn/plugin?id=1978)**
+
+
 # 使用方式
 
 使用方式也很简单，几步就可以解决：
